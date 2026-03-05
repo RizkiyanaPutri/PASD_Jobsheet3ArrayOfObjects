@@ -11,13 +11,13 @@ public class MahasiswaDemo21 {
         arrayOfMahasiswa[1].nim = "2341720172";
         arrayOfMahasiswa[1].nama = "ACHMAD MAULANA HAMZAH";
         arrayOfMahasiswa[1].kelas = "TI-2A";
-        arrayOfMahasiswa[1].ipk = (float)3.50;
+        arrayOfMahasiswa[1].ipk = (float)3.36;
 
         arrayOfMahasiswa[2] = new Mahasiswa21();
         arrayOfMahasiswa[2].nim = "244107023006";
-        arrayOfMahasiswa[2].nama = "DIR";
+        arrayOfMahasiswa[2].nama = "DIRHAMAWAN PUTRANTO";
         arrayOfMahasiswa[2].kelas = "TI-2A";
-        arrayOfMahasiswa[2].ipk = (float)3.25;
+        arrayOfMahasiswa[2].ipk = (float)3.80;
 
         System.out.println("NIM  : "+arrayOfMahasiswa[0].nim);
         System.out.println("Nama : "+arrayOfMahasiswa[0].nama);
