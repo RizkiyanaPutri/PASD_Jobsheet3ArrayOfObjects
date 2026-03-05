@@ -94,3 +94,13 @@ Matakuliah21 mk2 = new Matakuliah21("MK01","Algoritma",3,6);
 ```
 ## Hasil modifikasi pertanyaan nomer 2 - 4
 ![alt text](image-3.png)
+
+
+## 3.5 Tugas 
+## Output nomer 1
+![alt text](image-4.png)
+
+## Output nomer 2
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
