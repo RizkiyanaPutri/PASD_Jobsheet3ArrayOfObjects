@@ -55,3 +55,42 @@ myArrayOfMahasiswa[0].kelas = "SIB-1E";
 myArrayOfMahasiswa[0].ipk = (float) 3.75;
 ```
 karena objek Mahasiswa belum dibuat, yang dibuat hanya array saya tetapi isi objeknya masih null. program mencoba mengakses objek yang masih null sehingga muncul error.
+
+## 3.4 Constructor Berparameter
+
+## 3.4.2 Verifikasi Hasil Percobaan
+![alt text](image-2.png)
+
+## 3.4.3 Pertanyaan
+## 1. Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
+
+Bisa, Hal ini disebut Constructor Overloading, yaitu satu class memiliki beberapa constructor dengan parameter berbeda. Contoh: 
+```java
+public class Matakuliah21 {
+    public String kode;
+    public String nama;
+    public int sks;
+    public int jumlahJam;
+
+    // Constructor tanpa parameter
+    public Matakuliah21() {
+
+    }
+
+    // Constructor dengan parameter
+    public Matakuliah21(String kode, String nama, int sks, int jumlahJam) {
+        this.kode = kode;
+        this.nama = nama;
+        this.sks = sks;
+        this.jumlahJam = jumlahJam;
+    }
+}
+```
+objek bisa dibuat dengan dua cara
+```java
+Matakuliah21 mk1 = new Matakuliah21();
+
+Matakuliah21 mk2 = new Matakuliah21("MK01","Algoritma",3,6);
+```
+## Hasil modifikasi pertanyaan nomer 2 - 4
+![alt text](image-3.png)
